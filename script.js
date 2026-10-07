@@ -6,3 +6,9 @@ function computerchoice() {
 }
 console.log(computerchoice());
 
+function gethumanchoice(){
+    const choice=prompt("Enter rock, paper or scissors");
+    return choice;
+}
+
+console.log(gethumanchoice());
